@@ -1,0 +1,14 @@
+{
+  "name": "compress-images",
+  "version": "1.0.0",
+  "description": "Script de compression des images PNG",
+  "main": "compress.js",
+  "scripts": {
+    "compress": "node compress.js"
+  },
+  "dependencies": {
+    "imagemin": "^8.0.0",
+    "imagemin-pngquant": "^9.0.0"
+  },
+  "type": "module"
+}
